@@ -1,0 +1,178 @@
+/* Google Fonts já importadas no HTML */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fef9f4;
+    color: #4b3832;
+}
+
+header {
+    background-color: #8b5e3c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .social a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav {
+    background: #d8c3a5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: #4b3832;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #eae7dc;
+    transition: 0.3s ease-in-out;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+section#servicos {
+    flex: 2 1 600px;
+}
+
+.servicos-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background: #fff;
+    border: 1px solid #d8c3a5;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.servico img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1 1 300px;
+    background: #eae7dc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+aside blockquote {
+    font-style: italic;
+    color: #6f4e37;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #8b5e3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background: #6f4e37;
+    box-shadow: 0 4px 10px #7e584c;
+    transition: box-shadow 0.3s;
+}
+
+section#contato {
+    flex: 1 1 100%;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #9f5822;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #6f4e37;
+}
+
+footer {
+    background: #8b5e3c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.imagem-social{
+    max-width: 32px;
+    transition: box-shadow 0.3s;
+}
+
+.imagem-social:hover{
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #ccc;
+    transition: box-shadow 0.3s;
+}
+
+.env-btn{
+    border-radius: 15px;
+}
+
+.env-btn:hover{
+    background: #6f4e37;
+    box-shadow: 0 4px 10px #4b3832;
+    transition: box-shadow 0.3s;
+}
+
+.contato-env{
+    max-width: 100px;
+}
